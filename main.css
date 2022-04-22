@@ -1,3 +1,21 @@
+header, main, footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
+    background: blueviolet;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header img {
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 170px;
 }
