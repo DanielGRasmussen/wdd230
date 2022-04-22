@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: purple;
+    color: red;
 }
 
 header img {
@@ -41,7 +41,7 @@ footer {
     border-radius: 20px;
 
     background-color: rgb(35, 174, 221);
-    color: purple;
+    color: red;
 
     font-size: 17px;
     text-align: center;
