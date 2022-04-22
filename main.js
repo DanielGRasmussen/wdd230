@@ -1,2 +1,2 @@
 let lastUpdated = document.lastModified;
-console.log(lastUpdated)
+document.getElementById("lastUpdated").innerHTML = "Last Updated: ${lastUpdated}";
