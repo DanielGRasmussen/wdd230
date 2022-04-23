@@ -8,12 +8,12 @@ header {
     margin-top: 30px;
     height: 250px;
     border-radius: 20px;
-    background: rgb(35, 174, 221);
+    background: yellow;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: purple;
 }
 
 header img {
@@ -40,8 +40,8 @@ footer {
     height: 125px;
     border-radius: 20px;
 
-    background-color: rgb(35, 174, 221);
-    color: red;
+    background-color: yellow;
+    color: purple;
 
     font-size: 17px;
     text-align: center;
