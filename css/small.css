@@ -1,7 +1,8 @@
 header, main, footer {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 90%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
     height: 250px;
     border-radius: 20px;
     background: yellow;
+    font-size: 18pt;
 
     display: flex;
     justify-content: center;
@@ -25,11 +27,12 @@ header img {
 main h2 {
     padding-bottom: 20px;
     border-bottom: 0.5px solid black;
-    font-size: 35px;
+    font-size: 35pt;
 }
 
 main ul {
     margin-top: -15px;
+    font-size: 23pt;
 }
 
 main ul li {
@@ -43,10 +46,10 @@ footer {
     background-color: yellow;
     color: purple;
 
-    font-size: 17px;
+    font-size: 23pt;
     text-align: center;
 }
 
 #info {
-    padding-top: 30px;
+    padding-top: 15px;
 }

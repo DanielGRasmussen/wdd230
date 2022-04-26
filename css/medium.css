@@ -1,0 +1,20 @@
+@media (min-width: 32.5em) {
+    header, main, footer {
+        width: 600px;
+    }
+    header {
+        font-size: 12pt;
+    }
+    main h2 {
+        font-size: 26pt;
+    }
+    main ul {
+        font-size: 12pt;
+    }
+    footer {
+        font-size: 13pt;
+    }
+    #info {
+        padding-top: 30px;
+    }
+}
