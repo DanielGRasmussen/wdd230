@@ -1,13 +1,9 @@
-.principles {
+.principles p {
     margin-top: -20px;
     border: 1px solid black;
     border-top: 0.2px solid black;
     background: whitesmoke;
-}
-
-.principles img, .principles p {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 10px;
     line-height: 150%;
 }
 
@@ -23,6 +19,7 @@ h3 {
 }
 
 .principles img {
+    margin-top: 5px;
     border: 0.5px solid black;
 }
 
