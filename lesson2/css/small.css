@@ -1,0 +1,28 @@
+.principles {
+    margin-top: -20px;
+    border: 1px solid black;
+    border-top: 0.2px solid black;
+    background: whitesmoke;
+}
+
+.principles img, .principles p {
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 150%;
+}
+
+h3 {
+    border: 1px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: yellow;
+    text-align: center;
+}
+
+.principles img {
+    border: 0.5px solid black;
+}
+
