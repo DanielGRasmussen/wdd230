@@ -3,8 +3,7 @@
         display: flex;
         justify-content: space-around;
     }
-    .principles {
-        width: 45%;
-        max-width: 290px;
+    #principle2 {
+        margin-right: 20px
     }
 }
