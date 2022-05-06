@@ -7,7 +7,6 @@
 }
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
 }
 
 header, footer {
@@ -22,6 +21,7 @@ header, footer {
 header, nav, main, footer {
 	max-width: 960px;
 	margin: 0 auto;
+	font-family: "Noto Sans", sans-serif;
 }
 
 p {
