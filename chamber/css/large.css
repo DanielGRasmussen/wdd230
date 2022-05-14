@@ -12,11 +12,21 @@
         margin-left: 2vw;
         border-left: 2px solid rgba(0,0,0,0.3);
     }
+
+    nav ul {
+        background: #0B0B45;
+    }
     
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .5rem 1rem;
+        background: #0B0B45;
+        color: white;
+    }
+
+    nav ul li.active a {
+        background: #0B0B45
     }
 
     #facebook, #twitter {
