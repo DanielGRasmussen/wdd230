@@ -1,3 +1,15 @@
 @media only screen and (min-width: 40rem) {
-    
+    header #icon {
+        width: 75px;
+    }
+
+    header h1 {
+        margin-top: 15px;
+        font-size: x-large;
+    }
+
+    header h2 {
+        margin-top: -5px;
+        font-size: large;
+    }
 }

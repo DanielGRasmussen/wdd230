@@ -1,5 +1,10 @@
 @media only screen and (min-width: 64rem) {
     nav button{display: none;}
+    nav {
+        float: left;
+        margin-left: 400px;
+        margin-top: -60px;
+    }
     
     nav ul#primaryNav {
         display: flex;
