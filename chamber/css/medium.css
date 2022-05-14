@@ -12,4 +12,21 @@
         margin-top: -5px;
         font-size: large;
     }
+
+    #facebook, #twitter {
+        width: 40px;
+        margin-top: -65px;
+    }
+
+    #facebook {
+        margin-right: calc(20% + 55px);
+    }
+
+    nav button {
+        margin-top: -68px;
+    }
+    
+    #date {
+        margin-top: 30px;
+    }
 }

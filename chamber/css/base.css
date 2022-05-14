@@ -16,18 +16,18 @@ header #hamburgerBtn, #date {
 }
 
 #icon {
-    width: 50px;
+    width: 40px;
     float: left;
     margin-right: 20px;
 }
 
 header h1 {
-    font-size: large;
+    font-size: 14px;
     margin-top: 5px;
 }
 
 header h2 {
-    font-size: medium;
+    font-size: 12px;
 }
 
 nav button {
@@ -76,12 +76,23 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+#facebook, #twitter {
+    width: 25px;
+    float: right;
+    margin-top: -55px;
+    margin-right: 20%;
+}
+
+#facebook {
+    margin-right: calc(20% + 35px);
+}
+
 #date {
     background: #87cefa;
     padding: 15px;
     text-align: center;
     margin-right: 45px;
     font-size: large;
-    margin-top: -5px;
+    width: calc(100% - 70px);
     color: black;
 }
