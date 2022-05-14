@@ -111,6 +111,10 @@ main div {
     margin-top: 10px;
 }
 
+#join {
+    display: none;
+}
+
 #spotlight1, #spotlight2 {
     margin-left: 20px;
     margin-right: 20px;
