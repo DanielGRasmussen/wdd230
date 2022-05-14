@@ -2,6 +2,7 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* Header */
 header {
     background: #0B0B45;
     color: white;
@@ -99,4 +100,18 @@ nav ul.open {display: block;}
     font-size: large;
     width: calc(100% - 70px);
     color: black;
+}
+
+/* Main */
+main div {
+    height: 100px;
+    background: lightgray;
+    border: black 1px solid;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.spotlight {
+    margin-left: 20px;
+    margin-right: 20px;
 }
