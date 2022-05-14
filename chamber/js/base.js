@@ -36,3 +36,7 @@ var month = months[daymonth];
 var year = a.getFullYear();
 
 document.getElementById("date").innerHTML = day + ", " + daymonth + " " + month + " " + year;
+
+let lastUpdated = document.lastModified;
+document.getElementById("lastUpdated").innerHTML = `Last Modification: ${lastUpdated}`;
+document.getElementById("copy").innerHTML = `© ${year} Snowflake Chamber`

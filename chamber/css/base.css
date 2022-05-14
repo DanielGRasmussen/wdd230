@@ -20,7 +20,7 @@ header #hamburgerBtn, #date {
     margin-right: 5%;
 }
 
-#icon {
+header #icon {
     width: 40px;
     float: left;
     margin-right: 20px;
@@ -130,3 +130,28 @@ main div {
 }
 
 /* Footer */
+footer {
+    background: #0B0B45;
+    margin-top: 130px;
+    color: white;
+    text-align: center;
+}
+
+footer #icon {
+    width: 100px;
+    margin-top: 20px;
+}
+
+footer h2 {
+    font-size: medium;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer #base {
+    border-top: #87cefa 2px solid;
+    padding-bottom: 20px;
+}
