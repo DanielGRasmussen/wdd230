@@ -1,6 +1,6 @@
 @media only screen and (min-width: 40rem) {
     /* Header */
-    header #icon {
+    header .icon {
         width: 75px;
     }
 
@@ -101,12 +101,12 @@
         text-align: center;
     }
 
-    #icon, #title, #address {
+    .icon, #title, #address {
         grid-row: 1/2;
         grid-column: 1/2;
     }
 
-    footer #icon {
+    footer .icon {
         margin-top: 15px;
         margin-left: 5px;
     }
