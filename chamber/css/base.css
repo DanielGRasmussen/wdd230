@@ -12,7 +12,7 @@ header #icon, h1, h2, #date {
 }
 
 header #hamburgerBtn, #date {
-    margin-right: 20px;
+    margin-right: 5%;
 }
 
 #icon {
@@ -34,10 +34,12 @@ nav button {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
-    font-size: 3rem;
-    color: #555;
+    font-size: 1.75rem;
+    color: white;
     float: right;
     margin-top: -60px;
+    padding: 5px;
+    border: #87cefa 2px solid;
 }
 
 nav ul {
@@ -78,6 +80,8 @@ nav ul.open {display: block;}
     background: #87cefa;
     padding: 15px;
     text-align: center;
-    margin-right: 32px;
+    margin-right: 45px;
     font-size: large;
+    margin-top: -5px;
+    color: black;
 }
