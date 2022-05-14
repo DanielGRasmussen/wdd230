@@ -96,4 +96,13 @@
     }
 
     /* Large */
+    footer #base {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0;
+    }
+
+    footer #lastUpdated {
+        grid-column: 4/5;
+    }
 }
