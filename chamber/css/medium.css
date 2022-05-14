@@ -1,4 +1,5 @@
 @media only screen and (min-width: 40rem) {
+    /* Header */
     header #icon {
         width: 75px;
     }
@@ -28,5 +29,31 @@
     
     #date {
         margin-top: 30px;
+    }
+
+    /* Main */
+    main {
+        display: grid;
+        grid-row: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #spotlights {
+        margin-top: 10px;
+        grid-row: 3/4;
+        height: 235px;
+        background: lightgray;
+        border: black 1px solid;
+    }
+
+    #spotlight1 {
+        float: left;
+        width: 42%;
+        height: 90%;
+    }
+
+    #spotlight2 {
+        float: right;
+        width: 42%;
+        height: 90%;
     }
 }

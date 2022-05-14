@@ -111,7 +111,14 @@ main div {
     margin-top: 10px;
 }
 
-.spotlight {
+#spotlight1, #spotlight2 {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+#spotlights {
+    background: white;
+    border: none;
+}
+
+/* Footer */
