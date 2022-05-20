@@ -1,7 +1,7 @@
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open")
-}
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+};
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
@@ -39,4 +39,9 @@ document.getElementById("date").innerHTML = day + ", " + daymonth + " " + month 
 
 let lastUpdated = document.lastModified;
 document.getElementById("lastUpdated").innerHTML = `Last Modification: ${lastUpdated}`;
-document.getElementById("copy").innerHTML = `© ${year} Snowflake Chamber`
+document.getElementById("copy").innerHTML = `© ${year} Snowflake Chamber`;
+
+if (day == "Monday" || day == "Tuesday") {
+    const banner = document.getElementById("banner");
+    banner.style.display = "block";
+}
