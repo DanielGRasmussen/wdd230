@@ -116,15 +116,112 @@ nav ul.open {display: block;}
 
 
 main div {
-    height: 100px;
-    background: lightgray;
+    background: purple;
+    color: white;
     border: black 1px solid;
-    padding-left: 5px;
     margin-top: 10px;
+    height: 275px;
+    text-align: center;
+}
+
+#call {
+    height: auto;
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+#call img {
+    width: calc(100%);
+}
+
+#call h3 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: x-large;
+}
+
+#call button {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background: purple;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    border: #0B0B45 2px solid;
+}
+
+#event img {
+    width: 150px;
+}
+
+#weather {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 70px 30px 100px;
+}
+
+#weather h3 {
+    font-size: x-large;
+    color: #87cefa;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#temp {
+    font-size: xx-large;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#conditions {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#weather img {
+    width: 70px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#weather div {
+    border: none;
+    border-top: black solid 1px;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    height: auto;
+}
+
+#news {
+    height: 200px;
+}
+
+#news p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #join {
     display: none;
+}
+
+#spotlights div img {
+    height: 110px;
+}
+
+#spotlights div .contact {
+    width: 100%;
+    border-top: black solid 2px;
+    padding-top: 5px;
 }
 
 #spotlight1, #spotlight2 {
@@ -144,7 +241,7 @@ main div {
 /* Footer */
 footer {
     background: #0B0B45;
-    margin-top: 130px;
+    margin-top: 300px;
     color: white;
     text-align: center;
 }

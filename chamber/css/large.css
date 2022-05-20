@@ -95,7 +95,7 @@
         height: calc(100% - 4px);
     }
 
-    /* Large */
+    /* Footer */
     footer #base {
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
