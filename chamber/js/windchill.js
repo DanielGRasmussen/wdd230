@@ -1,7 +1,6 @@
 const temp = parseInt(document.getElementById("temp").textContent);
 const windSpeed = parseInt(document.getElementById("windSpeed").textContent);
 
-console.log(temp, windSpeed)
 if (temp > 50 || windSpeed < 3) {
     document.getElementById("windChill").textContent = "N/A";
 } else {
