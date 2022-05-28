@@ -18,7 +18,7 @@
     </head>
     <body>
         <header>
-            <img src="images/icon.png" alt="Icon, a snowflake." class="icon">
+            <img src="images/icon.webp" alt="Icon, a snowflake." class="icon">
             <h1>Snowflake</h1>
             <h2>Chamber of Commerce</h2>
             <nav>
@@ -40,7 +40,7 @@
         </div>
         <main>
             <div id="call">
-                <img src="images/banner.jpg" alt="Aerial view of a city">
+                <img src="images/hero_image.jpg" alt="People sitting at table">
                 <h3>Welcome! (placeholder image)</h3>
                 <button>Join Us</button>
             </div>
@@ -54,11 +54,11 @@
             <div id="weather">
                 <h3>Weather</h3>
                 <img src="images/clear_weather.png" alt="Sun">
-                <h4 id="temp">74°F</h4>
+                <h4 id="temp"><span>74</span>°F</h4>
                 <p id="conditions">Clear Sky</p>
                 <div>
-                    <p>Wind Speed: 32 mph</p>
-                    <p>Wind Chill: 66°F</p>
+                    <p>Wind Speed: <span id="windSpeed">32</span> mph</p>
+                    <p>Wind Chill: <span id="windChill"></span></p>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
         </main>
         <footer>
             <div id="main">
-                <img src="images/icon.png" alt="Icon, a snowflake." class="icon">
+                <img src="images/icon.webp" alt="Icon, a snowflake." class="icon">
                 <h2 id="title">Snowflake Chamber of Commerce</h2>
                 <p id="address">113 Main St<br>Snowflake, AZ 85937</p>
                 <p id="email">us@snowflakechamber.com</p>
@@ -112,5 +112,6 @@
             </div>
         </footer>
         <script src="js/base.js"></script>
+        <script src="js/windchill.js"></script>
     </body>
 </html>
