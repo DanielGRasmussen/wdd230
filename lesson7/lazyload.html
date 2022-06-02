@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Progressive Loading</title>
+        <meta name="author" content="Danel G. Rasmussen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="To show progressive loading and practice at doing it for WDD230 class at BYUI.">
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/all.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Progressive Loading</h1>
+            <h2>Daniel G. Rasmussen</h2>
+        </header>
+
+        <main>
+            <picture>
+                <img src="https://via.placeholder.com/300x400.png" alt="" data-src="https://picsum.photos/300/400">
+            </picture>
+            <picture>
+                <img src="https://via.placeholder.com/300x400.png" alt="" data-src="http://placeimg.com/300/400/any">
+            </picture>
+            <picture>
+                <img src="https://via.placeholder.com/300x400.png" alt="" data-src="http://www.placebear.com/300/400">
+            </picture>
+            <picture>
+                <img src="https://via.placeholder.com/300x400.png" alt="" data-src="https://loremflickr.com/300/400">
+            </picture>
+            <picture>
+                <img src="https://via.placeholder.com/300x400.png" alt="" data-src="https://placebeard.it/300x400">
+            </picture>
+        </main>
+        <footer>
+            <p id="info"></p>
+            <p id="lastUpdated"></p>
+        </footer>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
+    </body>
+</html>
