@@ -1,0 +1,19 @@
+main {
+    text-align: center;
+}
+
+#days {
+    padding: 7px 15px 7px 15px;
+    background: #87cefa;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin: 10px auto 10px auto;
+}
+
+main img {
+    width: 100%;
+}
+
+main div {
+    margin: 0 auto 20px auto;
+}

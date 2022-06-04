@@ -122,3 +122,7 @@ main div {
     background: white;
     border: none;
 }
+
+footer {
+    margin-top: 300px;
+}
