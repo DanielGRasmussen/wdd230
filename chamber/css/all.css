@@ -231,6 +231,13 @@ footer #base {
     }
 }
 
+/* Footer icon */
+@media only screen and (min-width: 950px) {
+    footer .icon {
+        margin-left: calc((100vw - 950px) / 5);
+    }
+}
+
 /* Large */
 @media only screen and (min-width: 1370px) {
     /* Large Header */
