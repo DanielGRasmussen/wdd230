@@ -2,6 +2,9 @@
     main div {
         max-width: 1200px;
         margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
     main div:last-of-type {

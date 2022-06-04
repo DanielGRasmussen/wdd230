@@ -1,8 +1,4 @@
 @media only screen and (min-width: 40rem) {
-    /* #daysSince {
-        max-width: 400px;
-    } */
-
     main div {
         max-width: 640px;
     }
