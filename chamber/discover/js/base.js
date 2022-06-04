@@ -1,7 +1,7 @@
 const p = document.getElementById("daysSince");
 
 if (localStorage.getItem("date") === null) {
-    p.innerHTML = "Welcome first time visitor!"
+    p.innerHTML = "This is your first time visiting this site!"
 } else {
     var daysSince = Math.floor((new Date - Date.parse(localStorage.date)) / 86400000);
     var message = "";
