@@ -51,7 +51,6 @@ main div {
 
 #weather h3 {
     font-size: x-large;
-    color: #87cefa;
     grid-column: 1/3;
     grid-row: 1/2;
 }
