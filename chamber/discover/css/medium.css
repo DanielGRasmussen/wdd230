@@ -1,0 +1,18 @@
+@media only screen and (min-width: 40rem) {
+    #days {
+        max-width: 400px;
+    }
+
+    main div {
+        max-width: 640px;
+    }
+
+    main img {
+        max-width: 640px;
+        border-radius: 10px;
+    }
+
+    main img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+}
