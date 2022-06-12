@@ -1,8 +1,12 @@
+body {
+    height: 100%;
+}
+
 main {
     text-align: center;
     vertical-align: middle;
     align-items: center;
-    overflow: hidden;
+    height: auto;
 }
 
 main h2 {
