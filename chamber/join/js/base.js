@@ -1,0 +1,1 @@
+document.getElementById("hiddendate").value = new Date;

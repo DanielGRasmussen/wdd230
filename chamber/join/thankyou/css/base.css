@@ -1,0 +1,14 @@
+main {
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    overflow: hidden;
+}
+
+main h2 {
+    margin-top: 12.4%;
+}
+
+main p {
+    margin-bottom: 12.4%;
+}

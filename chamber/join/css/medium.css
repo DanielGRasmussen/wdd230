@@ -1,0 +1,21 @@
+@media only screen and (min-width: 40rem) {
+    #info label input, #info label select {
+        max-width: 20rem;
+    }
+
+    #description textarea {
+        min-width: 50%;
+        min-height: 250px;
+        margin: 10px auto 0 auto;
+    }
+
+    form input.submitbtn {
+        margin-left: calc(50% - min(96%, 20rem));
+        margin-right: calc(50% - min(96%, 20rem));
+        max-width: 20rem;
+    }
+
+    #membership label {
+        margin-right: 20px;
+    }
+}

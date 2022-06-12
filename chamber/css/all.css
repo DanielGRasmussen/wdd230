@@ -3,6 +3,12 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #banner {
     display: none;
     background: #87cefa;
