@@ -77,26 +77,27 @@ form input.submitBtn {
 }
 
 #membership input {
-    display: none;
+    /* display: none; */
 }
 
 #membership input[type="radio"]:checked+label {
     border: 3px solid purple !important;
 }
 
-#np[type="radio"]:checked+label h3 {
+#np[type="radio"]:checked+label #h3 {
     background: purple;
+    color: white;
 }
 
-#bronze[type="radio"]:checked+label h3 {
+#bronze[type="radio"]:checked+label #h3 {
     background: #CD7F32;
 }
 
-#silver[type="radio"]:checked+label h3 {
+#silver[type="radio"]:checked+label #h3 {
     background: #C0C0C0;
 }
 
-#gold[type="radio"]:checked+label h3 {
+#gold[type="radio"]:checked+label #h3 {
     background: #FFD700;
 }
 
@@ -113,22 +114,23 @@ form input.submitBtn {
     margin-top: 10px;
 }
 
-#membership label h3 {
+#membership label #h3 {
     background: white;
     width: fit-content;
     margin: 15px auto 0 auto;
     padding: 12px 12px 12px 12px;
     border-radius: 20px;
+    font-size: 14pt;
+    font-weight: bold;
+    display: block;
 }
 
-#membership label h4 {
+#membership label #h4 {
     font-size: 20px;
     color: black;
     margin: 10px;
-}
-
-#membership label p {
-    margin-top: 10px;
+    font-weight: bold;
+    display: block;
 }
 
 .np {
