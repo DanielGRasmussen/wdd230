@@ -77,7 +77,7 @@ form input.submitBtn {
 }
 
 #membership input {
-    /* display: none; */
+    display: none;
 }
 
 #membership input[type="radio"]:checked+label {
@@ -134,7 +134,7 @@ form input.submitBtn {
 }
 
 .np {
-    margin: 0 !important;
+    margin-top: 0 !important;
 }
 
 /* Description */
