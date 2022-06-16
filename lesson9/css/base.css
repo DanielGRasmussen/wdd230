@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cards section {
+    background: lightblue;
+    text-align: center;
+    padding-bottom: 7px;
+    border: 1px solid black;
+}
+
+.cards section h2 {
+    color: purple;
+    font-size: 20pt;
+}
+
+.cards section p {
+    font-size: 14pt;
+}
