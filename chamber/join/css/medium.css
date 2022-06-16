@@ -18,4 +18,10 @@
     #membership label {
         margin-right: 20px;
     }
+
+    #info label {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

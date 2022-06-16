@@ -43,12 +43,14 @@
             <form method="get" action="../thankyou/" aria-label="The form to join the chamber of commerce.">
                 <fieldset id="info">
                     <legend>Applicant Information</legend>
-                    <label>First Name* <input type="text" name="fname" required></label>
-                    <label>Last Name* <input type="text" name="lname" required></label>
-                    <label>Job Title <input type="text" name="jtitle" pattern="^[A-Za-z -]+$" minlength="7" title="Only letters, '-' and spaces with a minimum length of 7 characters."></label>
-                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label>Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label>Business Name/Title <input type="text" name="bname" required></label>
+                    <div id="center">
+                        <label>First Name* <input type="text" name="fname" required></label>
+                        <label>Last Name* <input type="text" name="lname" required></label>
+                        <label>Job Title <input type="text" name="jtitle" pattern="^[A-Za-z -]+$" minlength="7" title="Only letters, '-' and spaces with a minimum length of 7 characters."></label>
+                        <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label>Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+                        <label>Business Name/Title <input type="text" name="bname" required></label>
+                    </div>
                 </fieldset>
 
                 <fieldset id="membership">
@@ -68,6 +70,8 @@
                         <span class="p">Free membership for non profit organizations only.</span>
                         <span class="h4">Benefits:</span>
                     </label>
+
+                    <div class="space"></div>
 
                     <input type="radio" name="membership" value="silver" class="membership" id="silver">
                     <label class="sbs silver" for="silver">
