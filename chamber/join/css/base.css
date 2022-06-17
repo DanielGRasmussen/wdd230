@@ -133,6 +133,17 @@ form input.submitBtn {
     display: block;
 }
 
+#membership label .li {
+    display: list-item;
+    width: fit-content;
+    margin-left: 15px;
+}
+
+#membership label .filler {
+    display: list-item;
+    color: transparent;
+}
+
 .np {
     margin-top: 0 !important;
 }
