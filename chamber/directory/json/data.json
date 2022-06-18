@@ -1,0 +1,102 @@
+{
+	"businesses": [
+		{
+			"name": "Chase Bank",
+			"phone_number": "(928) 537-4311",
+			"website": "https://www.chase.com",
+			"icon1": "chase_bank150.webp",
+			"icon2": "chase_bank300.webp",
+			"icon3": "chase_bank600.webp",
+			"membership": "silver",
+			"slogan": "Helping you make the most of your money."
+		},
+
+		{
+			"name": "Streets on Main",
+			"phone_number": "(928) 275-3663",
+			"website": "https://www.streetsonmain.com",
+			"icon1": "streets_on_main150.webp",
+			"icon2": "streets_on_main255.webp",
+			"icon3": "streets_on_main255.webp",
+			"membership": "gold",
+			"slogan": "A locally owned and family operated restaurant."
+		},
+
+		{
+			"name": "El Cupidos",
+			"phone_number": "(928) 537-4311",
+			"website": "https://www.elcupidosexpress.com",
+			"icon1": "el_cupidos260.webp",
+			"icon2": "el_cupidos500.webp",
+			"icon3": "el_cupidos500.webp",
+			"membership": "silver",
+			"slogan": "We are fine, fresh and best of all, Mexican."
+		},
+
+		{
+			"name": "W & Z Asian Bistro & Sushi Bar",
+			"phone_number": "(928) 457-0218",
+			"website": "https://wzasian.com",
+			"icon1": "wzasian.png",
+			"icon2": "wzasian.png",
+			"icon3": "wzasian.png",
+			"membership": "silver",
+			"slogan": "We have all the Asian food you want!"
+		},
+
+		{
+			"name": "KSI Metals+",
+			"phone_number": "(928) 478-7620",
+			"website": "https://ksimetals.com",
+			"icon1": "ksi.png",
+			"icon2": "ksi.png",
+			"icon3": "ksi.png",
+			"membership": "bronze",
+			"slogan": "1-Stop for Metal Roofing, Siding + More"
+		},
+
+		{
+			"name": "Hatch Industries",
+			"phone_number": "(928) 536-0000",
+			"website": "https://hatchbuildings.com",
+			"icon1": "hatch.png",
+			"icon2": "hatch.png",
+			"icon3": "hatch.png",
+			"membership": "silver",
+			"slogan": "Look of true masonry. Unmatched durability."
+		},
+
+		{
+			"name": "Perfect Printz",
+			"phone_number": "(928) 536-5108",
+			"website": "https://perfectprintz.com",
+			"icon1": "prints.jpg",
+			"icon2": "prints.jpg",
+			"icon3": "prints.jpg",
+			"membership": "bronze",
+			"slogan": "Service is our best product!"
+		},
+
+		{
+			"name": "Painted Sky Engineering & Survey",
+			"phone_number": "(928) 537-7218",
+			"website": "https://paintedskyes.com",
+			"icon1": "pses.png",
+			"icon2": "pses.png",
+			"icon3": "pses.png",
+			"membership": "gold",
+			"slogan": "Engineering consultant in Snowflake, Arizona"
+		},
+
+		{
+			"name": "Pro Website Go",
+			"phone_number": "(928) 322-6209",
+			"website": "https://prowebsitego.com",
+			"icon1": "prowebsitego.webp",
+			"icon2": "prowebsitego.webp",
+			"icon3": "prowebsitego.webp",
+			"membership": "gold",
+			"slogan": "Internet advertising consulting and pro website designer."
+		}
+	]
+}
