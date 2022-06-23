@@ -14,16 +14,21 @@ fetch(requestURL).then(function (response) {
 function displayBusinesses(business) {
     // Create elements to add to the document
     let card = document.createElement("section");
+    let div = document.createElement("div")
     let name = document.createElement("h2");
-    let link = document.createElement("a")
+    let membership = document.createElement("h3");
+    let link = document.createElement("a");
     let slogan = document.createElement("h3");
     let icon = document.createElement("img");
-    let phone = document.createElement("p")
+    let phone = document.createElement("p");
 
     // Change the textContent property of the each element
     link.textContent = business.name;
     slogan.textContent = business.slogan;
     phone.textContent = business.phone_number;
+    membership.textContent = business.membership.replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });;
 
     // Change the attributes
     link.setAttribute("href", business.website);
@@ -33,10 +38,12 @@ function displayBusinesses(business) {
 
     // Add/append the elements
     name.appendChild(link);
-    card.appendChild(name);
-    card.appendChild(slogan);
+    div.appendChild(name);
+    div.appendChild(membership);
+    div.appendChild(slogan);
+    div.appendChild(phone);
     card.appendChild(icon);
-    card.appendChild(phone);
+    card.appendChild(div);
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector("article").appendChild(card);

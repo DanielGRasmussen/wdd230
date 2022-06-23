@@ -53,8 +53,22 @@ article.grid section {
 }
 
 article.grid img {
+    max-width: 90%;
     max-height: 150px;
-    max-width: 200px;
+    min-height: 80px;
+    margin-top: 20px;
+}
+
+article.grid h2 {
+    font-size: 14pt;
+}
+
+article.grid h3 {
+    font-size: 12pt;
+}
+
+article.grid h3:first-of-type {
+    margin-top: 5px;
 }
 
 article.grid p {
@@ -67,30 +81,38 @@ article.grid p {
 article.list section {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 10px;
     box-shadow: 0 0 10px black;
     height: 200px;
     border-radius: 5px;
+    display: grid;
+    grid-gap: 10px;
 }
 
 article.list img {
     max-width: 100px;
     vertical-align: middle;
-    margin-top: -75px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
 }
 
-article.list h2, article.list h3, article.list p {
-    margin-left: 120px;
+article.list div {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: fit-content;
+    align-self: center;
 }
 
 article.list h2 {
-    font-size: 12pt;
-    padding-top: 40px;
+    font-size: 11pt;
+    padding-left: 0;
 }
+
 article.list h3 {
     font-size: 10pt;
 }
 
 article.list p {
     font-size: 9pt;
-    margin-top: -20px;
 }

@@ -30,7 +30,7 @@ header {
     padding-bottom: 10px;
 }
 
-header .icon, h1, h2, #date {
+header .icon, header h1, header h2, #date {
     margin-left: 20px;
 }
 
