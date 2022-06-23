@@ -59,11 +59,15 @@
 
             <div id="weather">
                 <h3>Weather</h3>
-                <figure class="sun"><img src="images/clear_weather70.webp" alt="Sun" srcset="images/clear_weather70.webp 1x, images/clear_weather140.webp 2x, images/clear_weather280.webp 3x"></figure>
-                <h4 id="temp"><span>74</span>°F</h4>
-                <p id="conditions">Clear Sky</p>
-                <div>
-                    <p>Wind Speed: <span id="windSpeed">32</span> mph</p>
+                <div id="temp">
+                    <figure>
+                        <img src="" alt="" id="weather-icon">
+                        <figcaption></figcaption>
+                    </figure>
+                    <h4><span id="current-temp"></span>°F</h4>
+                </div>
+                <div id="wind">
+                    <p>Wind Speed: <span id="windSpeed"></span> mph</p>
                     <p>Wind Chill: <span id="windChill"></span></p>
                 </div>
             </div>
@@ -119,5 +123,6 @@
         </footer>
         <script src="js/base.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/temp.js"></script>
     </body>
 </html>
