@@ -25,6 +25,9 @@ main div {
     left: 10px;
     font-size: x-large;
     color: black;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 4px 5px 4px 5px;
+    border-radius: 7px;
 }
 
 #call a {
