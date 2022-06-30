@@ -200,6 +200,7 @@ footer #base {
 
     footer .icon {
         width: 90px;
+        margin-top: 0;
     }
 
     #title {
@@ -244,7 +245,7 @@ footer #base {
 
 /* Footer icon */
 @media only screen and (min-width: 950px) {
-    footer .icon {
+    footer #iconlink {
         margin-left: calc((100vw - 950px) / 5);
     }
 }
@@ -290,8 +291,6 @@ footer #base {
     }
 
     /* Large Footer */
-    
-    /* Footer */
     footer #base {
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -299,7 +298,7 @@ footer #base {
     }
 
     footer .icon, #iconlink {
-        width: 100px;
+        width: 100px !important;
     }
 
     footer #lastUpdated {
