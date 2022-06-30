@@ -187,14 +187,19 @@ footer #base {
         text-align: center;
     }
 
-    .icon, #title, #address {
+    #iconlink, #title, #address {
         grid-row: 1/2;
         grid-column: 1/2;
     }
 
-    footer .icon {
+    footer #iconlink {
         margin-top: 15px;
         margin-left: 5px;
+        width: 90px;
+    }
+
+    footer .icon {
+        width: 90px;
     }
 
     #title {
@@ -291,6 +296,10 @@ footer #base {
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 0;
+    }
+
+    footer .icon, #iconlink {
+        width: 100px;
     }
 
     footer #lastUpdated {

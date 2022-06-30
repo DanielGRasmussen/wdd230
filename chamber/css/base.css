@@ -27,7 +27,7 @@ main div {
     color: black;
 }
 
-#call button {
+#call a {
     position: absolute;
     bottom: 30px;
     right: 20px;
@@ -36,6 +36,7 @@ main div {
     border-radius: 10px;
     color: white;
     border: #0B0B45 2px solid;
+    text-decoration: none;
 }
 
 #event img {
@@ -79,6 +80,10 @@ main div {
 
 #join {
     display: none;
+}
+
+#join a {
+    text-decoration: none;
 }
 
 #spotlights div img {
