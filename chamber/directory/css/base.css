@@ -55,7 +55,7 @@ article.grid section {
 article.grid img {
     max-width: 90%;
     max-height: 150px;
-    min-height: 80px;
+    min-height: 50px;
     margin-top: 20px;
 }
 

@@ -32,7 +32,7 @@ function displayBusinesses(business) {
 
     // Change the attributes
     link.setAttribute("href", business.website);
-    icon.setAttribute("src", `../images/icons/${business.icon3}`);
+    icon.setAttribute("src", `../images/icons/${business.icon1}`);
     icon.setAttribute("alt", `${business.name}'s icon`);
     icon.setAttribute("loading", "lazy");
 
