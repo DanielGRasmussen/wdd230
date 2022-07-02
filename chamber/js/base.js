@@ -31,11 +31,12 @@ months[8] = "September";
 months[9] = "October";
 months[10] = "November";
 months[11] = "December";
+var numday = a.getDate();
 var daymonth = a.getMonth();
 var month = months[daymonth];
 var year = a.getFullYear();
 
-document.getElementById("date").innerHTML = day + ", " + daymonth + " " + month + " " + year;
+document.getElementById("date").innerHTML = `${day}, ${numday} ${month} ${year}`
 
 let lastUpdated = document.lastModified;
 document.getElementById("lastUpdated").innerHTML = `Last Modification: ${lastUpdated}`;
