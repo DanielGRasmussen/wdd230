@@ -81,6 +81,10 @@ form input.submitBtn {
 }
 
 #membership input[type="radio"]:checked+label {
+    background: #87b6fa;
+}
+
+#np[type="radio"]:checked+label {
     border: 3px solid purple !important;
 }
 
@@ -89,12 +93,24 @@ form input.submitBtn {
     color: white;
 }
 
+#bronze[type="radio"]:checked+label {
+    border: 3px solid #CD7F32 !important;
+}
+
 #bronze[type="radio"]:checked+label .h3 {
     background: #CD7F32;
 }
 
+#silver[type="radio"]:checked+label {
+    border: 3px solid #C0C0C0 !important;
+}
+
 #silver[type="radio"]:checked+label .h3 {
     background: #C0C0C0;
+}
+
+#gold[type="radio"]:checked+label {
+    border: 3px solid #FFD700 !important;
 }
 
 #gold[type="radio"]:checked+label .h3 {
