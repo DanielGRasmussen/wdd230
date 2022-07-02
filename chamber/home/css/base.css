@@ -93,6 +93,11 @@ main div {
     height: 110px;
 }
 
+#spotlights a {
+    text-decoration: none;
+    color: white;
+}
+
 #spotlights div .contact {
     width: 100%;
     border-top: black solid 2px;
