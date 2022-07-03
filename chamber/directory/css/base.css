@@ -6,6 +6,11 @@
     padding: 10px 0 10px 0;
 }
 
+#menu button.selected {
+    cursor: auto;
+    background: lightgray;
+}
+
 #menu button {
     padding: 10px;
     width: 70px;
