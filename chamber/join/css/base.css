@@ -18,10 +18,16 @@ fieldset legend {
 
 #info label input:required {
     border-left: red solid 6px;
+    padding-left: 12px !important;
 }
 
 #info label input:required:valid {
     border-left: green solid 6px;
+    padding-left: 12px !important;
+}
+
+fieldset label input {
+    padding-left: 18px !important;
 }
 
 #buttonwrap {
