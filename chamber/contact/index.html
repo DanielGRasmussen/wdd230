@@ -2,18 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Snowflake Chamber | Directory</title>
+        <title>Snowflake Chamber | Join Us</title>
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Danel G. Rasmussen">
-        <meta name="description" content="Directory page. This has a list of all of our partnered businesses and some information about them.">
+        <meta name="description" content="This is where you can join us and become a partner.">
 
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/all.css">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -26,10 +28,10 @@
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primaryNav">
                     <li><a href="../home/">Home</a></li>
-                    <li><a href="../discover/">Discover</a></li>
-                    <li><a class="active">Directory</a></li>
+                    <li ><a href="../discover/">Discover</a></li>
+                    <li><a href="../directory/">Directory</a></li>
                     <li><a href="../join/">Join</a></li>
-                    <li><a href="../contact/">Contact</a></li>
+                    <li><a class="active">Contact</a></li>
                 </ul>
             </nav>
             <p id="date">Saturday, 14 May 2022</p>
@@ -38,18 +40,38 @@
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
         <main>
-            <div id="menu">
-                <button id="grid">⋮⋮⋮</button>
-                <button id="list">● ⎯</button>
+            <div id="contactInfo">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Phone Number: (928) 536-4331</li>
+                    <li>Email: us@snowflakechamber.com</li>
+                    <li>Address: 113 Main St Snowflake, AZ 85937</li>
+                    <li>Working Hours: Monday-Friday: 10am-2pm</li>
+                </ul>
             </div>
+            
+            <form method="get" action="thankyou/" aria-label="The form to join the chamber of commerce.">
+                <fieldset>
+                    <legend>Get in contact with us</legend>
+                    <label>Name* <input type="text" name="name" required></label>
+                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label>Describe your business.<br><textarea name="description" required></textarea></label>
+                </fieldset>
 
-            <article class="list">
-
-            </article>
+                <fieldset class="hidden">
+                    <legend>Hidden Date</legend>
+                    <label>Date & Time <input type="text" name="date" id="hiddendate"></label>
+                </fieldset>
+                
+                <div id="buttonwrap">
+                    <input type="submit" value="Send!" class="submitBtn">
+                </div>
+            </form>
         </main>
         <footer>
             <div id="main">
-                <a href="../home/" id="iconlink"><img src="../images/icon.webp" alt="Icon, a snowflake." class="icon" width="100px" height="116.81px"></a>
+                <a href="../home/" id="iconlink"><img src="../images/icon.webp" alt="Icon, a snowflake." class="icon"></a>
                 <h2 id="title">Snowflake Chamber of Commerce</h2>
                 <p id="address">113 Main St<br>Snowflake, AZ 85937</p>
                 <p id="email">us@snowflakechamber.com</p>
@@ -65,6 +87,5 @@
         </footer>
         <script src="../js/base.js"></script>
         <script src="js/base.js"></script>
-        <script src="js/gridlist.js"></script>
     </body>
 </html>

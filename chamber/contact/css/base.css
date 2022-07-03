@@ -1,0 +1,95 @@
+/* Input Validation */
+fieldset label input:required {
+    border-left: red solid 6px;
+    padding-left: 12px !important;
+}
+
+fieldset label input:required:valid {
+    border-left: green solid 6px;
+    padding-left: 12px !important;
+}
+
+fieldset label input {
+    padding-left: 18px !important;
+}
+
+/* Button */
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 15rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Form */
+fieldset legend {
+    text-align: center;
+}
+
+fieldset {
+    width: 333px;
+}
+
+fieldset label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+    width: 300px;
+}
+
+fieldset label input {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+fieldset textarea {
+    min-width: 326px;
+    max-width: 326px;
+    min-height: 100px;
+}
+
+/* Hidden Date & Time */
+.hidden {
+    display: none;
+}
+
+/* Main */
+#contactInfo {
+    width: fit-content;
+    height: fit-content;
+    line-height: 30px;
+    border: 1px solid black;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin: 10px auto 0 auto;
+}
+
+#contactInfo h3 {
+    text-align: center;
+}
+
+form {
+    width: fit-content;
+    margin: 10px auto 0 auto;
+}
+
+#buttonwrap {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}

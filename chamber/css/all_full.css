@@ -103,7 +103,7 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-@media only screen and (max-width: 1369px) {
+@media only screen and (max-width: 1023px) {
     nav ul li a:hover {
         color: white;
     }
@@ -261,7 +261,7 @@ footer #base {
 }
 
 /* Large */
-@media only screen and (min-width: 1370px) {
+@media only screen and (min-width: 1024px) {
     /* Large Header */
     nav button{display: none;}
     nav {
