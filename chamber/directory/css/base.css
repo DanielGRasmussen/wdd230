@@ -122,3 +122,7 @@ article.list h3 {
 article.list p {
     font-size: 9pt;
 }
+
+.fa-ul>li {
+    text-rendering: geometricPrecision;
+}
