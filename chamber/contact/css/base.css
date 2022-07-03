@@ -27,12 +27,22 @@ form input.submitBtn {
 }
 
 /* Form */
-fieldset legend {
+fieldset h3 {
     text-align: center;
+    margin-bottom: 0;
 }
 
 fieldset {
-    width: 333px;
+    max-width: 100%;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto 0 auto;
+}
+
+@media only screen and (min-width: 370px) {
+    fieldset {
+        width: 330px;
+    }
 }
 
 fieldset label {
@@ -40,7 +50,8 @@ fieldset label {
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .8rem;
-    width: 300px;
+    width: 90%;
+    max-width: 300px;
 }
 
 fieldset label input {
@@ -56,8 +67,8 @@ fieldset label input {
 }
 
 fieldset textarea {
-    min-width: 326px;
-    max-width: 326px;
+    min-width: calc(100% + 25px);
+    max-width: calc(100% + 25px);
     min-height: 100px;
 }
 
@@ -72,7 +83,6 @@ fieldset textarea {
     height: fit-content;
     line-height: 30px;
     border: 1px solid black;
-    padding-right: 15px;
     border-radius: 10px;
     margin: 10px auto 0 auto;
 }
@@ -81,8 +91,13 @@ fieldset textarea {
     text-align: center;
 }
 
+#contactInfo ul {
+    margin-right: 15px;
+}
+
 form {
     width: fit-content;
+    max-width: 100%;
     margin: 10px auto 0 auto;
 }
 
