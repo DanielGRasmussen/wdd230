@@ -11,7 +11,7 @@ fetch(requestURL).then(function (response) {
 }).then(function (jsonObject) {
     businesses = jsonObject["businesses"];
     for(let i = 0; i < businesses.length; i++) {
-        if (businesses[i].membership == "silver" || business[i].membership == "gold") {
+        if (businesses[i].membership == "silver" || businesses[i].membership == "gold") {
             advertise.push(businesses[i]);
         };
     };
