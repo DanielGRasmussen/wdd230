@@ -90,7 +90,7 @@ nav ul li {
     width: 100%;
 }
 
-nav ul li a {
+nav ul a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
@@ -102,9 +102,17 @@ nav ul li a:hover {
     background-color: #181891;
 }
 
-nav ul li a.active {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
+nav ul a.active {
+    background: rgba(0,0,0,0.2) !important;
+    color: white !important;
+}
+
+nav .dropdown-content {
+    background: #87cefa;
+}
+
+nav .dropdown-content a {
+    padding-left: 40px;
 }
 
 nav ul {display: none}
@@ -265,6 +273,10 @@ footer #services {
     nav ul {
         background: #0B0B45;
     }
+
+    nav ul li {
+        width: fit-content;
+    }
     
     nav ul li a {
         border: none;
@@ -272,10 +284,48 @@ footer #services {
         padding: .5rem 1rem;
         background: #0B0B45;
         color: white;
+        width: fit-content;
     }
 
-    nav ul li.active a {
-        background: #0B0B45
+    nav ul a.active {
+        background: #87c2fa !important;
+        color: black !important;
+    }
+
+    nav ul li a:hover {
+        background-color: #87cefa;
+        color: black;
+    }
+      
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+  
+    /* Links inside the dropdown */
+    nav ul .dropdown-content a {
+        padding: 12px 16px;
+        padding-left: 16px;
+        display: block;
+        color: white;
+        background: #0B0B45;
+    }
+
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #87cefa;
+        color: black;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
     }
 
     #facebook {
