@@ -46,15 +46,12 @@ header {
     width: 100%;
     margin-top: -10px;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 1px;
+    min-height: 70px;
 }
 
 header .icon, header h1 {
     margin-left: 20px;
-}
-
-header #hamburgerBtn {
-    margin-right: 5%;
 }
 
 header .icon {
@@ -69,28 +66,28 @@ header h1 {
     margin-top: 5px;
 }
 
-nav {
-    margin-top: 35px;
-}
-
 nav button {
-    margin: .2rem 2vw;
+    margin-top: -45px;
+    margin-right: 40px;
     background: transparent;
     border: none;
     font-size: 1.75rem;
     color: white;
     float: right;
-    margin-top: -60px;
     padding: 5px 9px 5px 9px;
     border: #87cefa 2px solid;
+    cursor: pointer;
 }
 
 nav ul {
-    margin-top: 20px;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+nav ul li {
     background: #87cefa;
+    width: 100%;
 }
 
 nav ul li a {
@@ -111,11 +108,7 @@ nav ul li a.active {
 }
 
 nav ul {display: none}
-nav ul.open {display: block;}
-
-#hamburgerBtn {
-    cursor: pointer;
-}
+nav ul.open {display: block; padding-top: 40px;}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
@@ -141,8 +134,8 @@ nav ul.open {display: block;}
 }
 
 @media only screen and (max-width: 460px) {
-    nav {
-        margin: 35px 0 0 200px;
+    nav button {
+        margin: -50px 2% 0 200px;
     }
 
     #facebook, #twitter {
@@ -207,12 +200,6 @@ footer #services {
         font-size: x-large;
     }
 
-    nav {
-        float: right;
-        margin-right: 25px;
-        margin-top: 20px;
-    }
-
     #facebook, #twitter {
         margin-top: -45px;
     }
@@ -222,7 +209,7 @@ footer #services {
     }
 
     nav button {
-        margin-top: -68px;
+        margin-top: -50px;
     }
 
     footer a#iconlink {
@@ -259,8 +246,8 @@ footer #services {
     nav button{display: none;}
     nav {
         float: left;
-        margin-left: 400px;
-        margin-top: -45px;
+        margin-left: 350px;
+        margin-top: -65px;
     }
 
     @media only screen and (max-width: 1070px) {
