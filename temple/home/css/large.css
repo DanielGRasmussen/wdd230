@@ -1,1 +1,32 @@
 /* Large Main */
+@media only screen and (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-rows:  300px 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main #bannerimg {
+        grid-column: 1/3;
+    }
+
+    /* Large Temple */
+    main #temple {
+        grid-column: 1/2;
+        grid-row: 2/4;
+        height: 95%;
+        width: 95%;
+        max-width: 500px;
+    }
+
+    main #temple img {
+        width: 400px;
+    }
+
+    /* Large Weather & Forecast */
+    main #weather, main #forecast {
+        width: 95%;
+        max-width: 500px;
+        padding: 0;
+    }
+}

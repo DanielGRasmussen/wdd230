@@ -164,6 +164,7 @@ footer {
     background: #0B0B45;
     color: white;
     text-align: center;
+    margin-bottom: 0;
 }
 
 footer .icon {
