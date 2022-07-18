@@ -2,7 +2,7 @@
 @media only screen and (min-width: 1024px) {
     main {
         display: grid;
-        grid-template-rows:  300px 1fr 1fr;
+        grid-template-rows:  1fr 230px 230px;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -20,7 +20,7 @@
     }
 
     main #temple img {
-        width: 400px;
+        width: 375px;
     }
 
     /* Large Weather & Forecast */
