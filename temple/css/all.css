@@ -8,8 +8,18 @@
     clear: both;
 }
 
+body {
+    background: #0B0B45;
+}
+
 header {
     margin-bottom: 20px;
+}
+
+main {
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0 !important;
+    background: white;
 }
 
 footer {

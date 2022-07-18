@@ -1,0 +1,107 @@
+{
+	"temples": [
+		{
+			"city": "Snowflake, Arizona",
+			"address": "1875 Canyon Dr, Snowflake, AZ 85937",
+			"phone_number": "+1 (928) 536-6626",
+			"email": "SnowflakeTemple@churchofjesuschrist.org",
+			"picture": "images/snowflake_temple.jpeg",
+			"services": [
+				"Distribution center nearby"
+			],
+			"history": {
+				"announced": "2 April 2000",
+				"groundbreaking": "23 September 2000",
+				"dedicated": "3 March 2002"
+			},
+			"ordinance_schedule": [
+				""
+			],
+			"session_schedule": "",
+			"temple_closure_schedule": [
+				"Monday, 19 September 2022 - Monday, 3 October 2022",
+				"Thursday, 24 November 2022 - Friday, 25 November 2022",
+				"Saturday, 24 December 2022 - Sunday, 25 December 2022"
+			]
+		},
+
+		{
+			"city": "Phoenix, Arizona",
+			"address": "5104 W Pinnacle Peak Rd, Glendale, AZ 85310",
+			"phone_number": "+1 (623) 474-9500",
+			"email": "PhoenixTemple@churchofjesuschrist.org",
+			"picture": "images/phoenix_temple.jpg",
+			"services": [
+				"None"
+			],
+			"history": {
+				"announced": "9 May 2008",
+				"groundbreaking": "4 June 2011",
+				"dedicated": "16 November 2014"
+			},
+			"ordinance_schedule": "",
+			"session_schedule": "",
+			"temple_closure_schedule": [
+				"Saturday, 1 October 2022",
+				"Monday, 31 October 2022 - Monday, 14 November 2022",
+				"Wednesday, 23 November 2022 (Limited Operations)",
+				"Thursday, 24 November 2022",
+				"Saturday, 24 December 2022",
+				"Saturday, 31 December 2022 (Limited Operations)"
+			]
+		},
+
+		{
+			"city": "Mesa, Arizona",
+			"address": "101 S Lesueur, Mesa, AZ 85204",
+			"phone_number": "+1 (480) 833-1211",
+			"email": "MesaTemple@churchofjesuschrist.org",
+			"picture": "images/mesa_temple.jpg",
+			"services": [
+				"Clothing rental available",
+				"Distribution center nearby"
+			],
+			"history": {
+				"announced": "1 October 1919",
+				"groundbreaking": "25 April 1922",
+				"dedicated": "23 October 1927"
+			},
+			"ordinance_schedule": "",
+			"session_schedule": "",
+			"temple_closure_schedule": [
+				"Monday, 18 July 2022 - Monday, 1 August 2022",
+				"Saturday, 1 October 2022",
+				"Wednesday, 23 November 2022 (Limited Operations)",
+				"Thursday, 24 November 2022",
+				"Saturday, 24 December 2022",
+				"Saturday, 31 December 2022"
+			]
+		},
+
+		{
+			"city": "Gilbert, Arizona",
+			"address": "3301 S Greenfield Rd, Gilbert, AZ 85297",
+			"phone_number": "+1 (480) 822-5000",
+			"email": "GilbertTemple@churchofjesuschrist.org",
+			"picture": "images/gilbert_temple.jpeg",
+			"services": [
+				"Clothing rental available",
+				"Distribution center nearby"
+			],
+			"history": {
+				"announced": "10 April 2008",
+				"groundbreaking": "13 November 2010",
+				"dedicated": "2 March 2014"
+			},
+			"ordinance_schedule": "",
+			"session_schedule": "",
+			"temple_closure_schedule": [
+				"Saturday, 1 October 2022",
+				"Monday, 3 October 2022 - Monday, 17 October 2022",
+				"Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+				"Saturday, 24 December 2022",
+				"Saturday, 31 December 2022"
+			]
+		}
+	]
+}
