@@ -56,7 +56,16 @@
             <span id="close">X</span>
         </div>
         <main>
-            <img src="home/images/banner.jpg" alt="Banner picture of the temple" id="bannerimg">
+            <div id="call">
+                <picture class="photoA">
+                    <source media="(max-width: 639px)" srcset="home/images/banner.jpg">
+                    <source media="(max-width: 1369px)" srcset="home/images/banner.jpg">
+                    <source media="(min-width: 1370px)" srcset="home/images/banner.jpg">
+                    <img src="home/images/banner.jpg" alt="Banner picture of the temple" id="bannerimg">
+                </picture>
+                <a href="reservations/">Reserve Now</a>
+            </div>
+
             <section id="temple">
                 <h2>Snowflake, Arizona Temple</h2>
                 <img src="home/images/snowflake_temple.jpg" alt="Picture of Snowflake, Arizona Temple">

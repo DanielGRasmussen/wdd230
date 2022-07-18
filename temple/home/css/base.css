@@ -1,7 +1,25 @@
 /* Small Main */
-main #bannerimg {
+/* Call to action */
+main #call {
     width: 100%;
     margin-bottom: 10px;
+    position: relative;
+}
+
+main #call img {
+    width: 100%;
+}
+
+main #call a {
+    padding: 5px 6px 5px 6px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #450b39;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
 }
 
 /* All divs */

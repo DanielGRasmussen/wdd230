@@ -6,7 +6,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    main #bannerimg {
+    main #call {
         grid-column: 1/3;
     }
 
