@@ -23,8 +23,8 @@
         <header>
             <a href="../"><img src="../images/icon.webp" alt="Icon" class="icon"></a>
             <h1>The Temple Inn & Suites</h1>
-            <a href="https://www.facebook.com" target="_blank"><figure class="facebook_logo"><img src="../images/facebook40.webp" alt="Facebook Icon" srcset="../images/facebook40.webp 1x, images/facebook80.webp 2x, images/facebook160.webp 3x" id="facebook"></figure></a>
-            <a href="https://mobile.twitter.com" target="_blank"><figure class="twitter_logo"><img src="../images/twitter40.webp" alt="Twitter Icon" srcset="../images/twitter40.webp 1x, images/twitter80.webp 2x, images/twitter160.webp 3x" id="twitter"></figure></a>
+            <a href="https://www.facebook.com" target="_blank"><figure class="facebook_logo"><img src="../images/facebook40.webp" alt="Facebook Icon" srcset="../images/facebook40.webp 1x, ../images/facebook80.webp 2x, ../images/facebook160.webp 3x" id="facebook"></figure></a>
+            <a href="https://mobile.twitter.com" target="_blank"><figure class="twitter_logo"><img src="../images/twitter40.webp" alt="Twitter Icon" srcset="../images/twitter40.webp 1x, ../images/twitter80.webp 2x, ../images/twitter160.webp 3x" id="twitter"></figure></a>
             <nav>
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primaryNav">
@@ -46,13 +46,48 @@
             <span id="close">X</span>
         </div>
         <main>
-            <!-- 
-                The Reservation page contains a form that collects relevant information
-                when making a normal stay reservation including the location, date,
-                number and type of rooms, registrant's full name, email, phone, home state
-                or country, and special accommodations/comments. Make sure to do some form
-                validation.
-            -->
+            <form method="get" action="thankyou/" aria-label="The form to make a reservation.">
+                <fieldset id="info">
+                    <legend>Applicant Information</legend>
+                    <div>
+                        <label>Full Name*<br><input type="text" name="name" required></label>
+                        <label>Email*<br><input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label>Phone<br><input type="tel" name="phone" placeholder="1235551234"></label>
+                        <label>Home State/Country<br><input type="text" name="from" placeholder="New York"></label>
+                    </div>
+                </fieldset>
+
+                <fieldset id="reservation">
+                    <legend>Reservation Information</legend>
+                    <div>
+                        <label>
+                            Location*<br>
+                            <select name="location">
+                                <option value="">Please Select</option>
+                                <option value="snowflake">Snowflake, Arizona</option>
+                                <option value="mesa">Mesa, Arizona</option>
+                                <option value="phoenix">Phoenix, Arizona</option>
+                                <option value="gilbert">Gilbert, Arizona</option>
+                            </select>
+                        </label>
+                        <label>Date*<br><input type="date" name="date" min="2022-08-18" required></label>
+                        <label>Number of People*<br><input type="number" name="people" required></label>
+
+                        <h4>Special Rooms</h4>
+                        <label><input type="checkbox" name="changing" value="yes"> Changing Room</label><br>
+                        <label class="nomargin"><input type="checkbox" name="play" value="yes"> Playroom</label>
+                    </div>
+                </fieldset>
+
+                <fieldset id="comments">
+                    <legend>Special accommodations/comments</legend>
+                    <label><textarea name="comments"></textarea></label>
+                </fieldset>
+
+                <div id="buttonwrap">
+                    <input type="submit" value="Reserve!" class="submitBtn">
+                </div>
+            </form>
         </main>
         <footer>
             <img src="../images/icon.webp" alt="Icon" class="icon">
