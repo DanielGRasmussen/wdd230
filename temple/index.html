@@ -2,11 +2,12 @@
 <html lang="en">
     <!-- TO DO
         Tonight:
-        1. Main page weather javascript
-        2. Temples page json -> javascript -> html
-            2.5 Temples like button w/ localstorage
-            2.6 Finish json
-        3. Emergency Alert javascript
+        1. Temples page json -> javascript -> html
+            1.5 Temples like button w/ localstorage
+        2. Emergency Alert javascript
+
+        Tomorrow:
+        1. Finish json
     -->
     <head>
         <meta charset="utf-8">
@@ -22,6 +23,9 @@
         <link rel="stylesheet" href="home/css/medium.css">
         <link rel="stylesheet" href="home/css/large.css">
         <script src="js/base.js" defer></script>
+        <script src="home/js/temp.js" defer></script>
+        <script src="home/js/forecast.js" defer></script>
+        <script src="home/js/days.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -76,12 +80,12 @@
 
             <section id="weather">
                 <h2>Weather</h2>
-                <h3>92°F</h3>
-                <img src="http://via.placeholder.com/75x75" alt="Current weather">
+                <h3 id="temperature"></h3>
+                <img src="" alt="Current weather" id="currenttype">
                 <div>
-                    <span id="windspeed">Windspeed: 0 mph</span>
-                    <span id="humidity">Humidity: 34%</span>
-                    <span id="feelslike">Feels like: 93°F</span>
+                    <span id="windspeed"></span>
+                    <span id="humidity"></span>
+                    <span id="feelslike"></span>
                 </div>
             </section>
 
@@ -89,18 +93,18 @@
                 <h2>Forecast</h2>
                 <div id="tomorrow">
                     <h2>Tomorrow</h2>
-                    <h3>92°F</h3>
-                    <img src="http://via.placeholder.com/75x75" alt="Current weather">
+                    <h3 id="temp1"></h3>
+                    <img src="" alt="Current weather" id="icon1">
                 </div>
                 <div id="twodays">
-                    <h2>Wednesday</h2>
-                    <h3>92°F</h3>
-                    <img src="http://via.placeholder.com/75x75" alt="Current weather">
+                    <h2 id="intwo"></h2>
+                    <h3 id="temp2"></h3>
+                    <img src="" alt="Current weather" id="icon2">
                 </div>
                 <div id="threedays">
-                    <h2>Thursday</h2>
-                    <h3>92°F</h3>
-                    <img src="http://via.placeholder.com/75x75" alt="Current weather">
+                    <h2 id="inthree"></h2>
+                    <h3 id="temp3"></h3>
+                    <img src="" alt="Current weather" id="icon3">
                 </div>
             </section>
         </main>
