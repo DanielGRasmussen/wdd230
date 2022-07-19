@@ -9,7 +9,7 @@ main h3, main p {
 }
 
 main img {
-    min-width: 300px;
+    width: 275px;
     display: inline;
 }
 
