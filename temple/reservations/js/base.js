@@ -7,8 +7,7 @@ if (day < 10) {day = "0" + day;}
 
 if (month < 10) {month = "0" + month;}
 
-var formatted = `${year}-${month}-${day}`
+var formatted = `${year}-${month}-${day}`;
 
-const calendar = document.getElementById("calendar")
-console.log(formatted)
-calendar.setAttribute("min", formatted)
+const calendar = document.getElementById("calendar");
+calendar.setAttribute("min", formatted);
