@@ -18,5 +18,5 @@ inthree = new Date(inthree.setDate(inthree.getDate() + 3));
 intwo = weekdays[intwo.getDay()];
 inthree = weekdays[inthree.getDay()];
 
-two.textContent = intwo;
+two.innerHTML = intwo;
 three.innerHTML = inthree;
