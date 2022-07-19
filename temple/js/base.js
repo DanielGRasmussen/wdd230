@@ -9,3 +9,6 @@ x.onclick = toggleMenu;
 
 var year = new Date().getFullYear();
 document.getElementById("copy").innerHTML = `© ${year} The Temple Inn & Suites`;
+
+let lastUpdated = document.lastModified;
+document.getElementById("lastUpdated").innerHTML = `Last Modification: ${lastUpdated}`;

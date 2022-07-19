@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script src="../js/base.js" defer></script>
+        <script src="js/base.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -70,7 +71,7 @@
                                 <option value="gilbert">Gilbert, Arizona</option>
                             </select>
                         </label>
-                        <label>Date*<br><input type="date" name="date" min="2022-08-18" required></label>
+                        <label>Date*<br><input type="date" name="date" min="2022-07-18" id="calendar" required></label>
                         <label>Number of People*<br><input type="number" name="people" required></label>
 
                         <h4>Special Rooms</h4>
@@ -107,7 +108,10 @@
                     <p><a href="../services/missionary/">Temple Missionary</a></p>
                 </div>
             </div>
-            <p id="copy">&copy; 2022 The Temple Inn & Suites</p>
+            <div id="bottom">
+                <p id="copy">&copy; 2022 The Temple Inn & Suites</p>
+                <p id="lastUpdated"></p>
+            </div>
         </footer>
     </body>
 </html>
