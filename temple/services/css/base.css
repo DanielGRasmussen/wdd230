@@ -1,1 +1,10 @@
 /* Small Main */
+main h3 {
+    text-align: center;
+}
+
+main h4, main ul, main p {
+    margin-left: 10px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+}
