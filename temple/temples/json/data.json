@@ -5,7 +5,7 @@
 			"address": "1875 Canyon Dr, Snowflake, AZ 85937",
 			"phone_number": "+1 (928) 536-6626",
 			"email": "SnowflakeTemple@churchofjesuschrist.org",
-			"picture": "images/snowflake_temple300.jpeg",
+			"picture": "images/snowflake_temple300.webp",
 			"services": [
 				"Distribution center nearby"
 			],
@@ -30,7 +30,7 @@
 			"address": "5104 W Pinnacle Peak Rd, Glendale, AZ 85310",
 			"phone_number": "+1 (623) 474-9500",
 			"email": "PhoenixTemple@churchofjesuschrist.org",
-			"picture": "images/phoenix_temple300.jpg",
+			"picture": "images/phoenix_temple300.webp",
 			"services": [
 				"None"
 			],
@@ -56,7 +56,7 @@
 			"address": "101 S Lesueur, Mesa, AZ 85204",
 			"phone_number": "+1 (480) 833-1211",
 			"email": "MesaTemple@churchofjesuschrist.org",
-			"picture": "images/mesa_temple300.jpg",
+			"picture": "images/mesa_temple300.webp",
 			"services": [
 				"Clothing rental available",
 				"Distribution center nearby"
@@ -83,7 +83,7 @@
 			"address": "3301 S Greenfield Rd, Gilbert, AZ 85297",
 			"phone_number": "+1 (480) 822-5000",
 			"email": "GilbertTemple@churchofjesuschrist.org",
-			"picture": "images/gilbert_temple300.jpeg",
+			"picture": "images/gilbert_temple300.webp",
 			"services": [
 				"Clothing rental available",
 				"Distribution center nearby"
