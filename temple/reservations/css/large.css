@@ -1,7 +1,13 @@
 /* Large Main */
 @media only screen and (min-width: 1024px) {
+    main form fieldset {
+        width: 270px !important;
+        height: 425px;
+    }
+
     main form #comments {
         text-align: center;
         width: fit-content;
+        height: fit-content;
     }
 }
