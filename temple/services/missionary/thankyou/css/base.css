@@ -1,0 +1,15 @@
+body {
+    height: 100%;
+}
+
+main {
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    height: auto;
+}
+
+main h2 {
+    margin-top: 12.4%;
+    margin-bottom: 12.4%;
+}

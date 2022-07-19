@@ -1,1 +1,88 @@
 /* Small Main */
+/* Text */
+main {
+    text-align: center;
+}
+main h3, main p {
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+main img {
+    min-width: 300px;
+    display: inline;
+}
+
+/* Input Validation */
+fieldset label input:required {
+    border-left: red solid 6px;
+    padding-left: 12px !important;
+}
+
+fieldset label input:required:valid {
+    border-left: green solid 6px;
+    padding-left: 12px !important;
+}
+
+fieldset label input {
+    padding-left: 18px !important;
+}
+
+/* Form */
+main form {
+    text-align: left;
+}
+
+main form fieldset {
+    width: 280px;
+    border-radius: 10px;
+    margin: 0 auto 10px auto;
+}
+
+main form legend {
+    text-align: center;
+}
+
+main form label {
+    display: block;
+    margin-top: 10px;
+}
+
+main form label, main form input {
+    width: 225px;
+    padding: 6px 0 6px 8px;
+    border-radius: 5px;
+}
+
+/* Textarea */
+main form #comments {
+    padding: 0;
+    width: fit-content;
+    margin: 0 auto 0 auto;
+}
+
+main form textarea {
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 100px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+/* Button */
+main form #buttonwrap {
+    width: fit-content;
+    margin: 0;
+    margin: 10px auto 0 auto;
+    grid-column: 1/3;
+}
+
+main form input.submitBtn {
+    border: none;
+    background: #87cefa;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    max-width: 15rem;
+    cursor: pointer;
+}

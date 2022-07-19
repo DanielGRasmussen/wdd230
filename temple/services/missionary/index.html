@@ -6,7 +6,7 @@
         <link rel="icon" href="../../favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Danel G. Rasmussen">
-        <meta name="description" content="">
+        <meta name="description" content="These are our services for full-time missionaries.">
 
         <link rel="stylesheet" href="../../css/normalize.css">
         <link rel="stylesheet" href="../../css/all.css">
@@ -46,11 +46,25 @@
             <span id="close">X</span>
         </div>
         <main>
-            <!--
-                A full-time temple missionary page that provides information and images
-                about the suites offered at the hotel with a simple Contact Us form for
-                more details. 
-            -->
+            <h3>Full-time Missionaries</h3>
+            <p>For full-time missionaries we offer long-term stay accommodations in kitchenette suites. You can also use a close family search center that supports family search and ordinance work.</p>
+            <img src="images/example1.jpg" alt="A nice dinner table with plenty of natural lighting via several windows which go from the floor to the ceiling.">
+            <img src="images/example2.jpg" alt="A couch set in the living room.">
+
+            <form method="get" action="thankyou/" aria-label="The form ask questions.">
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div>
+                        <label>Name*<br><input type="text" name="name" required></label><br>
+                        <label>Email*<br><input type="email" name="email" placeholder="someone@gmail.com" required></label><br>
+                        <label id="question">Question<br><textarea name="questions"></textarea></label>
+                    </div>
+                </fieldset>
+
+                <div id="buttonwrap">
+                    <input type="submit" value="Ask!" class="submitBtn">
+                </div>
+            </form>
         </main>
         <footer>
             <img src="../../images/icon.webp" alt="Icon" class="icon">
