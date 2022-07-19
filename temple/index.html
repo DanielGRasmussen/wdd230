@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <!-- TO DO
-    1. Main page weather javascript
-    2. Temples page json -> javascript -> html
-        2.5 Temples like button w/ localstorage
-        2.6 Finish json
-    3. Emergency Alert javascript
-    4. Optimize images
-    5. Take up more room on the services page.
+        Tonight:
+        1. Main page weather javascript
+        2. Temples page json -> javascript -> html
+            2.5 Temples like button w/ localstorage
+            2.6 Finish json
+        3. Emergency Alert javascript
+
+        Tomorrow:
+        4. Optimize images
+        5. Take up more room on the services page.
     -->
     <head>
         <meta charset="utf-8">
@@ -37,16 +40,16 @@
             <nav>
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primaryNav">
-                    <li><a class="active">Home</a></li>
-                    <li><a href="temples/">Temples</a></li>
-                    <li><a href="reservations/">Reservations</a></li>
-                    <div class="dropdown">
-                        <li class="dropbtn"><a href="services/">Services <i class="fa fa-caret-down"></i></a></li>
+                    <li class="link"><a class="active">Home</a></li>
+                    <li class="link"><a href="temples/">Temples</a></li>
+                    <li class="link"><a href="reservations/">Reservations</a></li>
+                    <li class="dropdown">
+                        <a href="services/" class="forcelink dropbtn">Services <i class="fa fa-caret-down"></i></a>
                         <div class="dropdown-content">
-                            <a href="services/reception/">Reception</a></li>
-                            <a href="services/missionary/">Temple Missionary</a></li>
+                            <a href="services/reception/">Reception</a>
+                            <a href="services/missionary/">Temple Missionary</a>
                         </div>
-                    </div>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -75,7 +78,7 @@
                 <h2>Weather</h2>
                 <h3>92°F</h3>
                 <img src="http://via.placeholder.com/75x75" alt="Current weather">
-                <div id="bottom">
+                <div>
                     <span id="windspeed">Windspeed: 0 mph</span>
                     <span id="humidity">Humidity: 34%</span>
                     <span id="feelslike">Feels like: 93°F</span>
