@@ -9,16 +9,18 @@
 			"services": [
 				"Distribution center nearby"
 			],
-			"history": {
-				"announced": "2 April 2000",
-				"groundbreaking": "23 September 2000",
-				"dedicated": "3 March 2002"
-			},
-			"ordinance_schedule": [
+			"history": [
+				"2 April 2000",
+				"23 September 2000",
+				"3 March 2002"
+			],
+			"ordinances": [
 				""
 			],
-			"session_schedule": "",
-			"temple_closure_schedule": [
+			"session_schedule": [
+				""
+			],
+			"closure_schedule": [
 				"Monday, 19 September 2022 - Monday, 3 October 2022",
 				"Thursday, 24 November 2022 - Friday, 25 November 2022",
 				"Saturday, 24 December 2022 - Sunday, 25 December 2022"
@@ -34,14 +36,18 @@
 			"services": [
 				"None"
 			],
-			"history": {
-				"announced": "9 May 2008",
-				"groundbreaking": "4 June 2011",
-				"dedicated": "16 November 2014"
-			},
-			"ordinance_schedule": "",
-			"session_schedule": "",
-			"temple_closure_schedule": [
+			"history": [
+				"9 May 2008",
+				"4 June 2011",
+				"16 November 2014"
+			],
+			"ordinances": [
+				""
+			],
+			"session_schedule": [
+				""
+			],
+			"closure_schedule": [
 				"Saturday, 1 October 2022",
 				"Monday, 31 October 2022 - Monday, 14 November 2022",
 				"Wednesday, 23 November 2022 (Limited Operations)",
@@ -61,14 +67,18 @@
 				"Clothing rental available",
 				"Distribution center nearby"
 			],
-			"history": {
-				"announced": "1 October 1919",
-				"groundbreaking": "25 April 1922",
-				"dedicated": "23 October 1927"
-			},
-			"ordinance_schedule": "",
-			"session_schedule": "",
-			"temple_closure_schedule": [
+			"history": [
+				"1 October 1919",
+				"25 April 1922",
+				"23 October 1927"
+			],
+			"ordinances": [
+				""
+			],
+			"session_schedule": [
+				""
+			],
+			"closure_schedule": [
 				"Monday, 18 July 2022 - Monday, 1 August 2022",
 				"Saturday, 1 October 2022",
 				"Wednesday, 23 November 2022 (Limited Operations)",
@@ -88,14 +98,18 @@
 				"Clothing rental available",
 				"Distribution center nearby"
 			],
-			"history": {
-				"announced": "10 April 2008",
-				"groundbreaking": "13 November 2010",
-				"dedicated": "2 March 2014"
-			},
-			"ordinance_schedule": "",
-			"session_schedule": "",
-			"temple_closure_schedule": [
+			"history": [
+				"10 April 2008",
+				"13 November 2010",
+				"2 March 2014"
+			],
+			"ordinances": [
+				""
+			],
+			"session_schedule": [
+				""
+			],
+			"closure_schedule": [
 				"Saturday, 1 October 2022",
 				"Monday, 3 October 2022 - Monday, 17 October 2022",
 				"Wednesday, 23 November 2022 - Thursday, 24 November 2022",
