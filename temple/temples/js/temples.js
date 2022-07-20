@@ -9,32 +9,32 @@ fetch(requestURL).then(function (response) {
 function displayTemple(temple) {
     // Create elements to add to the document
     var card = document.createElement("section");
-    var title = document.createElement("h2");
+    var title = document.createElement("h3");
     var img = document.createElement("img");
 
     var div1 = document.createElement("div")
-    var contact = document.createElement("h3");
-    var contactul =document.createElement("ul");
+    var contact = document.createElement("h4");
+    var contactul = document.createElement("ul");
 
     var div2 = document.createElement("div")
-    var history = document.createElement("h3");
-    var historyul =document.createElement("ul");
+    var history = document.createElement("h4");
+    var historyul = document.createElement("ul");
 
     var div3 = document.createElement("div")
-    var services = document.createElement("h3");
-    var servicesul =document.createElement("ul");
+    var services = document.createElement("h4");
+    var servicesul = document.createElement("ul");
 
     var div4 = document.createElement("div")
-    var ordinance = document.createElement("h3");
-    var ordinanceul =document.createElement("ul");
+    var ordinance = document.createElement("h4");
+    var ordinanceul = document.createElement("ul");
 
     var div5 = document.createElement("div")
-    var session = document.createElement("h3");
-    var sessionul =document.createElement("ul");
+    var session = document.createElement("h4");
+    var sessionul = document.createElement("ul");
 
     var div6 = document.createElement("div")
-    var closure = document.createElement("h3");
-    var closureul =document.createElement("ul");
+    var closure = document.createElement("h4");
+    var closureul = document.createElement("ul");
 
 
     // Change the textContent property of the each element

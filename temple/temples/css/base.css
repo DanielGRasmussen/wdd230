@@ -6,11 +6,12 @@ main section {
     text-align: center;
 }
 
-main section h2 {
+main section h3 {
     text-align: center;
+    width: 100%;
 }
 
-main section h3 {
+main section h4 {
     margin-left: 10px;
 }
 

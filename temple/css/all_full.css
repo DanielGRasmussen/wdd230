@@ -31,14 +31,20 @@ footer {
     border: #0B0B45 3px solid;
     margin: auto;
     margin-top: 10px;
-    max-width: 600px;
+    width: fit-content;
+    padding: 0 10px 0 10px;
+}
+
+.show {
+    display: block !important;
 }
 
 #banner span {
     float: right;
-    margin-top: -50px;
+    margin-top: -70px;
+    margin-right: -10px;
     font-size: larger;
-    padding: 3px 8px 3px 8px;
+    padding: 3px 8px 8px 12px;
 }
 
 #banner span:hover {
