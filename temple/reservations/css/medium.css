@@ -23,6 +23,7 @@
         grid-row: 3/4;
         width: 95%;
         margin: 0 auto 0 auto;
+        text-align: center;
     }
 
     main form #comments textarea {

@@ -32,9 +32,18 @@ function displayAlert(alertData) {
     alertData = alertData.features
     alertData.forEach((alert) => {
         var area = alert.properties.areaDesc
-        if (area.includes("Phoenix") || area.includes("Mesa") || area.includes("Gilbert")) {
+        if (area.includes("Phoenix")) {
             toggleShow()
-            message.innerHTML = `${alert.properties.severity} weather alert in ${area}<br>${alert.properties.headline}`
+            message.innerHTML = `${alert.properties.severity} weather alert in Phoenix, Arizona.<br>${alert.properties.headline}`
+        } else if (area.includes("Mesa")) {
+            toggleShow()
+            message.innerHTML = `${alert.properties.severity} weather alert in Mesa, Arizona.<br>${alert.properties.headline}`
+        } else if (area.includes("Gilbert")) {
+            toggleShow()
+            message.innerHTML = `${alert.properties.severity} weather alert in Gilbert, Arizona.<br>${alert.properties.headline}`
+        } else if (area.includes("Snowflake")) {
+            toggleShow()
+            message.innerHTML = `${alert.properties.severity} weather alert in Snowflake, Arizona.<br>${alert.properties.headline}`
         }
     })
 }
