@@ -97,7 +97,7 @@ nav ul {
     padding-left: 0px;
 }
 
-nav ul .link {
+nav ul .link, nav ul .forcelink {
     background: #87cefa;
     width: 100%;
 }
@@ -110,7 +110,7 @@ nav ul a {
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
-nav ul .link a:hover {
+nav ul .link a:hover, nav ul .forcelink:hover {
     background-color: #181891;
 }
 
