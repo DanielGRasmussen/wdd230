@@ -4,12 +4,28 @@
         Tonight:
         1. Temples like button w/ localstorage
         2. Emergency Alert javascript
-        3. Add title to Temples
 
         Tomorrow:
         1. Finish json
     -->
+    <head>
+        <meta charset="utf-8">
+        <title>Home | The Temple Inn & Suites</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Danel G. Rasmussen">
+        <meta name="description" content="Main page for The Temple Inn & Suites. Here we have local weather information and info on one of the temples we provide our service for.">
 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="home/css/base.css">
+        <link rel="stylesheet" href="home/css/medium.css">
+        <link rel="stylesheet" href="home/css/large.css">
+        <script src="js/base.js" defer></script>
+        <script src="home/js/temp.js" defer></script>
+        <script src="home/js/forecast.js" defer></script>
+        <script src="home/js/days.js" defer></script>
+    </head>
     <!--
         Home Page:
             Lighthouse: ✓
@@ -59,27 +75,6 @@
             Accessibility: ✓
             Links: ✓
     -->
-    <head>
-        <meta charset="utf-8">
-        <title>Home | The Temple Inn & Suites</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Danel G. Rasmussen">
-        <meta name="description" content="Main page for The Temple Inn & Suites. Here we have local weather information and info on one of the temples we provide our service for.">
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/all.css">
-        <link rel="stylesheet" href="home/css/base.css">
-        <link rel="stylesheet" href="home/css/medium.css">
-        <link rel="stylesheet" href="home/css/large.css">
-        <script src="js/base.js" defer></script>
-        <script src="home/js/temp.js" defer></script>
-        <script src="home/js/forecast.js" defer></script>
-        <script src="home/js/days.js" defer></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" defer>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin defer>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" defer>
-    </head>
     <body>
         <header>
             <a><img src="images/icon.webp" alt="Icon" class="icon"></a>
@@ -179,5 +174,8 @@
                 <p id="lastUpdated"></p>
             </div>
         </footer>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     </body>
 </html>
