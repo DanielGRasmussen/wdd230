@@ -49,6 +49,16 @@ main form input[type="checkbox"] {
     width: fit-content;
 }
 
+main form ul {
+    list-style: none;
+    margin-top: -10px;
+    line-height: 0;
+}
+
+main form ul li {
+    margin-left: -40px;
+}
+
 /* Form Comments */
 main form #comments textarea {
     min-width: 280px;
