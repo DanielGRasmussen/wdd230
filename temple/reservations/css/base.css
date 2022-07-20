@@ -1,16 +1,16 @@
 /* Small Main */
 /* Input Validation */
-fieldset label input:required {
+fieldset div label input:required {
     border-left: red solid 6px;
     padding-left: 12px !important;
 }
 
-fieldset label input:required:valid {
+fieldset div label input:required:valid {
     border-left: green solid 6px;
     padding-left: 12px !important;
 }
 
-fieldset label input {
+fieldset div label input {
     padding-left: 18px !important;
 }
 
@@ -33,12 +33,12 @@ main form h4 {
     margin-bottom: 5px;
 }
 
-main form label {
+main form div label {
     display: block;
     margin-top: 10px;
 }
 
-main form label, main form input, main form select {
+main form div label, main form input, main form select {
     width: 225px;
     padding: 6px 0 6px 8px;
     border-radius: 5px;
