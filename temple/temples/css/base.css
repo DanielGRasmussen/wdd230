@@ -6,9 +6,29 @@ main section {
     text-align: center;
 }
 
+main h2 {
+    text-align: center;
+    width: 100%;
+}
+
 main section h3 {
     text-align: center;
     width: 100%;
+    margin-top: 20px;
+}
+
+main section .likes {
+    margin-top: -55px;
+    margin-right: 10px;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    width: fit-content;
+    color: red;
+}
+
+main section .likes .liked, main section .likes .notliked {
+    display: none;
 }
 
 main section h4 {

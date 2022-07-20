@@ -6,11 +6,15 @@ fetch(requestURL).then(function (response) {
     jsonObject["temples"].forEach(displayTemple);
 });
 
+var num = 0;
 function displayTemple(temple) {
     // Create elements to add to the document
     var card = document.createElement("section");
     var title = document.createElement("h3");
     var img = document.createElement("img");
+    var likes = document.createElement("div");
+    var liked = document.createElement("span");
+    var notliked = document.createElement("span");
 
     var div1 = document.createElement("div")
     var contact = document.createElement("h4");
@@ -40,6 +44,10 @@ function displayTemple(temple) {
     // Change the textContent property of the each element
     title.innerHTML = temple.city + " Temple";
     contact.innerHTML = "Contact Info";
+
+    notliked.innerHTML = "♡"
+    liked.innerHTML = "♥"
+
     history.innerHTML = "History";
     services.innerHTML = "Services";
     ordinance.innerHTML = "Ordinance Schedule";
@@ -98,8 +106,36 @@ function displayTemple(temple) {
     // Change the attributes
     img.setAttribute("src", temple.picture);
     img.setAttribute("alt", `Picture of ${temple.city}'s temple`);
+    likes.classList.add("likes");
+    console.log(num);
+    likes.setAttribute("onclick", `toggleLiked(this, ${num})`);
+    liked.classList.add("liked");
+    notliked.classList.add("notliked");
+
+    var i;
+    switch (num) {
+        case 0:
+            i = "one";
+            break;
+        case 1:
+            i = "two";
+            break;
+        case 2:
+            i = "three";
+            break;
+        case 3:
+            i = "four";
+            break;
+    }
+    if (localStorage.getItem(i) == "true") {
+        liked.classList.add("show");
+    } else {
+        notliked.classList.add("show");
+    }
 
     // Add/append the elements
+    likes.appendChild(liked);
+    likes.appendChild(notliked);
     div1.appendChild(contact);
     div1.appendChild(contactul);
     div2.appendChild(history);
@@ -114,6 +150,7 @@ function displayTemple(temple) {
     div6.appendChild(closureul);
 
     card.appendChild(title);
+    card.appendChild(likes);
     card.appendChild(img);
     card.appendChild(div1)
     card.appendChild(div2)
@@ -124,4 +161,5 @@ function displayTemple(temple) {
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector("article").appendChild(card);
+    num++;
 }

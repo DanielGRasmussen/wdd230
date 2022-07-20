@@ -38,7 +38,6 @@ function displayAlert(alertData) {
         }
     })
 }
-// [0].properties.areaDesc.includes("Coconino")
 
 async function get() {
     try {
