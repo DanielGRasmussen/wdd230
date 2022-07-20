@@ -49,8 +49,8 @@
                     <div>
                         <label>Full Name*<br><input type="text" name="name" required></label>
                         <label>Email*<br><input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label>Phone<br><input type="tel" name="phone" placeholder="1235551234"></label>
-                        <label>Home State/Country<br><input type="text" name="from" placeholder="New York"></label>
+                        <label>Phone<br><input type="tel" name="phone" pattern="[0-9].{7,}" title="Only use numbers and have a minimum of 7 characters." placeholder="1235551234"></label>
+                        <label>Home State/Country<br><input type="text" name="from" pattern="[a-zA-Z]*" title="Only use letters." placeholder="New York"></label>
                     </div>
                 </fieldset>
 
