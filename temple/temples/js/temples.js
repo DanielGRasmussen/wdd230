@@ -1,5 +1,4 @@
 const requestURL = "json/data.json";
-const main = document.querySelector("main");
 
 fetch(requestURL).then(function (response) {
     return response.json();
@@ -124,5 +123,5 @@ function displayTemple(temple) {
     card.appendChild(div6)
 
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector("main").appendChild(card);
+    document.querySelector("article").appendChild(card);
 }

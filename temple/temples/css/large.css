@@ -1,6 +1,6 @@
 /* Large Main */
 @media only screen and (min-width: 1024px) {
-    main {
+    main article {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
         grid-gap: 10px;
