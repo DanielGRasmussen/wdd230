@@ -290,7 +290,7 @@ footer #bottom {
         color: black !important;
     }
 
-    nav ul .link a:hover, nav ul .forcelink:hover {
+    nav ul .link a:hover, nav ul .forcelink:hover, nav .dropdown-content a:hover {
         background-color: #87cefa;
         color: black;
     }
@@ -313,12 +313,6 @@ footer #bottom {
         display: block;
         color: white;
         background: #0B0B45;
-    }
-
-    /* Add a grey background color to dropdown links on hover */
-    .dropdown-content a:hover {
-        background-color: #87cefa;
-        color: black;
     }
 
     /* Show the dropdown menu on hover */
